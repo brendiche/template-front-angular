@@ -16,7 +16,7 @@
         function getUser(){
             var deferred = $q.defer();
             dataAccess.getUser().then(function(response){
-                deferred.resolve(response.data.users);
+                deferred.resolve(response.data);
             }).catch(function(err){
                 $log.error(err);
             })

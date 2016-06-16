@@ -14,7 +14,7 @@
     	return service;
 
         function getUser(){
-            return $http.get('http://localhost:3000/');
+            return $http.get('assets/db/db.json');
         }
     }
 

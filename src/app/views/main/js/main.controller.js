@@ -8,7 +8,6 @@
   /** @ngInject */
   function MainController(users,toastr) {
     var vm = this;
-
     vm.users = users;
 
     vm.showToastr = showToastr ;
